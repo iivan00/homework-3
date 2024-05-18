@@ -1,0 +1,28 @@
+.hero-section {
+  padding: 270px 0;
+  padding-top: 16px;
+  background-image: url("../images/background.jpg");
+  // height: 657.93px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  &__title {
+    color: var(--сolor-primary-light);
+    font-family: "play", sans-serif;
+    font-size: 140px;
+    font-weight: 900;
+    line-height: 1.2;
+    max-width: 529px;
+  }
+}
+.main-section {
+  margin-bottom: 40px;
+  margin-left: 122px;
+}
+
+.hero-conteiner {
+  width: 100%;
+  max-width: 1178px;
+  margin: 0 auto;
+}

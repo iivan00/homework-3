@@ -1,0 +1,39 @@
+.procedures-section {
+  &__conteiner {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  &__card {
+    position: relative;
+    height: 456px;
+    display: flex;
+    border: 1px solid #d3d3d3;
+    border-radius: 120px 4px;
+    background-image: linear-gradient(
+      180deg,
+      rgba(1, 28, 68, 0) 48.53%,
+      rgba(1, 28, 68, 0.73) 84.61%,
+      var(--color-primary-dark) 101.39%
+    );
+    transition: transform 0.2s;
+  }
+
+  &__list {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__title {
+    max-width: 510px;
+    margin-bottom: 48px;
+    text-align: center;
+    margin: 0 auto 48px;
+  }
+}
+
+.procedures-section__card:hover {
+  transform: scale(1.05);
+}

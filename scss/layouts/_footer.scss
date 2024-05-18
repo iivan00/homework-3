@@ -1,0 +1,103 @@
+.footer-section {
+  padding: 56px 0;
+  position: relative;
+  font-family: "roboto", sans-serif;
+  text-decoration: none;
+  background-color: var(--color-primary-dark);
+  color: var(--color-brand-light);
+
+  &::after {
+    color: var(--color-primary-dark);
+    position: absolute;
+    bottom: -58px;
+    right: 0;
+    width: 270px;
+    height: 210px;
+    background-image: url("../images/hygieneproducts.png");
+    content: "";
+    background-repeat: no-repeat;
+  }
+
+  &__nav {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+  }
+
+  &__menu {
+    flex-grow: 1;
+  }
+
+  &__contact {
+    display: flex;
+    flex-basis: 50%;
+    gap: 20px;
+  }
+
+  &__conteiner {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__logo {
+    flex-grow: 1;
+  }
+
+  &__text {
+    color: var(--color-brand-light);
+    text-decoration: none;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    gap: 186px;
+    font-weight: 400;
+    transition: color 0.2s;
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+
+    &:hover {
+      color: var(--сolor-primary-light);
+    }
+  }
+
+  &__address {
+    color: var(--color-brand-light);
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    gap: 186px;
+    transition: color 0.2s;
+    text-decoration: none;
+    line-height: 1.5;
+    font-family: "roboto", sans-serif;
+
+    &:hover {
+      color: var(--сolor-primary-light);
+    }
+  }
+
+  &__icon {
+    fill: var(--color-brand-light);
+    display: flex;
+    flex-grow: 1;
+    gap: 24px;
+
+    &:hover {
+      fill: var(--сolor-primary-light);
+    }
+  }
+
+  &__info {
+    flex-grow: 1;
+  }
+
+  &__list {
+    flex-grow: 1;
+  }
+
+  &__data {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--color-landing-dark);
+  }
+}
